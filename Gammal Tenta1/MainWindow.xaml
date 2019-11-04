@@ -1,0 +1,41 @@
+﻿<Window x:Class="Gammal_Tenta1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Gammal_Tenta1"
+        mc:Ignorable="d"
+        Title="Form1" Height="1200" Width="800">
+    <Grid>
+        <GroupBox Header="Boka resa" HorizontalAlignment="Left" Height="249" Margin="172,111,0,0" VerticalAlignment="Top" Width="500">
+
+
+        </GroupBox>
+        <Label Content="Förnamn:" HorizontalAlignment="Left" Margin="215,166,0,0" VerticalAlignment="Top"/>
+        <Label Content="Efternamn:" HorizontalAlignment="Left" Margin="215,197,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.421,0.962"/>
+        <Label Content="Resmål:" HorizontalAlignment="Left" Margin="215,228,0,0" VerticalAlignment="Top" RenderTransformOrigin="4.368,1.654"/>
+        <Label Content="Datum:" HorizontalAlignment="Left" Margin="215,259,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="boxDestination" HorizontalAlignment="Left" Height="23" Margin="287,228,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Text="Japan"/>
+        <TextBox x:Name="boxFname" HorizontalAlignment="Left" Height="23" Margin="287,166,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Text="Emiko"/>
+        <TextBox x:Name="boxLname" HorizontalAlignment="Left" Height="23" Margin="287,197,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Text="Johansson"/>
+        <Button Content="OK" HorizontalAlignment="Left" Margin="332,287,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+        <DatePicker x:Name="pickerDate" HorizontalAlignment="Left" Margin="287,261,0,0" VerticalAlignment="Top" Width="120"/>
+        <ListBox x:Name="listbox1" HorizontalAlignment="Left" Height="172" Margin="446,166,0,0" VerticalAlignment="Top" Width="174"/>
+        <Label Content="Bokningar:" HorizontalAlignment="Left" Margin="446,140,0,0" VerticalAlignment="Top"/>
+        <GroupBox Header="Checka in" HorizontalAlignment="Left" Height="125" Margin="172,426,0,0" VerticalAlignment="Top" Width="290">
+                    </GroupBox>
+        <Label Content="Bokingnummber:" HorizontalAlignment="Left" Margin="196,482,0,0" VerticalAlignment="Top" Width="114"/>
+
+        <Label Content="Efternamn:" HorizontalAlignment="Left" Margin="196,456,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.421,0.962"/>
+        <TextBox x:Name="checkInLnamn" HorizontalAlignment="Left" Height="23" Margin="316,459,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="checkInBookingNumber" HorizontalAlignment="Left" Height="23" Margin="316,487,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <Button Content="Checka in" HorizontalAlignment="Left" Margin="361,515,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_1"/>
+        <GroupBox Header="Checka in baggage" HorizontalAlignment="Left" Height="136" Margin="172,591,0,0" VerticalAlignment="Top" Width="290">
+        </GroupBox>
+        <Label Content="Antal:" HorizontalAlignment="Left" Margin="196,624,0,0" VerticalAlignment="Top"/>
+        <Label Content="Vikt:" HorizontalAlignment="Left" Margin="196,655,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="boxBagAmount" HorizontalAlignment="Left" Height="23" Margin="316,627,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="boxBagWeight" HorizontalAlignment="Left" Height="23" Margin="316,659,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <Button Content="Checka in" HorizontalAlignment="Left" Margin="361,687,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_2"/>
+    </Grid>
+</Window>

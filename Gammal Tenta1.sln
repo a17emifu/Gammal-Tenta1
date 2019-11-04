@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2050
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gammal Tenta3", "Gammal Tenta3\Gammal Tenta3.csproj", "{E3CDC4B4-4BB8-4658-B40C-F47F539A1A40}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KAI - Gammal Tenta1", "KAI - Gammal Tenta1\KAI - Gammal Tenta1.csproj", "{4E860656-49EA-45CD-B5E6-C3377AA4CB22}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gammal Tenta4", "Gammal Tenta4\Gammal Tenta4.csproj", "{6F8AD2BB-D5A7-45F4-81D3-A391DD7D663E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gammal Tanta5", "Gammal Tanta5\Gammal Tanta5.csproj", "{90FA0136-753F-4313-99D2-1ACD3CD569FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gammal Tenta6", "Gammal Tenta6\Gammal Tenta6.csproj", "{CBC2728F-496F-4E03-BDD2-41F343D1850E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KAI - Gammal Tenta2", "KAI - Gammal Tenta2\KAI - Gammal Tenta2.csproj", "{88E86B6A-EC09-463F-B0DA-BB4279D7A7FE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E3CDC4B4-4BB8-4658-B40C-F47F539A1A40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E3CDC4B4-4BB8-4658-B40C-F47F539A1A40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E3CDC4B4-4BB8-4658-B40C-F47F539A1A40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E3CDC4B4-4BB8-4658-B40C-F47F539A1A40}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E860656-49EA-45CD-B5E6-C3377AA4CB22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E860656-49EA-45CD-B5E6-C3377AA4CB22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E860656-49EA-45CD-B5E6-C3377AA4CB22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E860656-49EA-45CD-B5E6-C3377AA4CB22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F8AD2BB-D5A7-45F4-81D3-A391DD7D663E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F8AD2BB-D5A7-45F4-81D3-A391DD7D663E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F8AD2BB-D5A7-45F4-81D3-A391DD7D663E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F8AD2BB-D5A7-45F4-81D3-A391DD7D663E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90FA0136-753F-4313-99D2-1ACD3CD569FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90FA0136-753F-4313-99D2-1ACD3CD569FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90FA0136-753F-4313-99D2-1ACD3CD569FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90FA0136-753F-4313-99D2-1ACD3CD569FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBC2728F-496F-4E03-BDD2-41F343D1850E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBC2728F-496F-4E03-BDD2-41F343D1850E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBC2728F-496F-4E03-BDD2-41F343D1850E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBC2728F-496F-4E03-BDD2-41F343D1850E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88E86B6A-EC09-463F-B0DA-BB4279D7A7FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88E86B6A-EC09-463F-B0DA-BB4279D7A7FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88E86B6A-EC09-463F-B0DA-BB4279D7A7FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88E86B6A-EC09-463F-B0DA-BB4279D7A7FE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EBB1AFD1-205D-4726-BB0A-DD7AEC957A22}
+	EndGlobalSection
+EndGlobal

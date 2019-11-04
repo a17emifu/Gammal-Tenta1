@@ -1,0 +1,34 @@
+﻿<Window x:Class="Gammal_Tenta2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Gammal_Tenta2"
+        mc:Ignorable="d"
+        Title="Skidskytte" Height="450" Width="800">
+    <Grid>
+        <GroupBox Header="Regustrera träffar" HorizontalAlignment="Left" Height="130" Margin="289,249,0,0" VerticalAlignment="Top" Width="141"/>
+
+        <Label Content="Förnamn" HorizontalAlignment="Left" Margin="43,102,0,0" VerticalAlignment="Top"/>
+        <Label Content="Efternamn" HorizontalAlignment="Left" Margin="43,152,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="boxFNamn" HorizontalAlignment="Left" Height="23" Margin="43,128,0,0" TextWrapping="Wrap" Text="Emiko" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="boxLNamn" HorizontalAlignment="Left" Height="23" Margin="43,178,0,0" TextWrapping="Wrap" Text="Johansson" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="btnAdd" Content="Anmäl till &#xD;&#xA;tävling" HorizontalAlignment="Left" Margin="168,146,0,0" VerticalAlignment="Top" Width="94" Height="54" Click="Button_Click"/>
+        <Label Content="Anmälda deltagare" HorizontalAlignment="Left" Margin="288,104,0,0" VerticalAlignment="Top"/>
+        <ListBox x:Name="listbox1" HorizontalAlignment="Left" Height="100" Margin="288,135,0,0" VerticalAlignment="Top" Width="158" SelectionChanged="listbox1_SelectionChanged"/>
+        <Button x:Name="btnNum" Content="Generera &#xD;&#xA;startnummmer" HorizontalAlignment="Left" Margin="168,205,0,0" VerticalAlignment="Top" Width="94" Height="53" Click="Button_Click_1"/>
+        <CheckBox x:Name="goal1" Content="" HorizontalAlignment="Left" Margin="309,269,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="goal5" Content="" HorizontalAlignment="Left" Margin="389,269,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="goal4" Content="" HorizontalAlignment="Left" Margin="369,269,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="goal3" Content="" HorizontalAlignment="Left" Margin="349,269,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="goal2" Content="" HorizontalAlignment="Left" Margin="329,269,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="btnOK" Content="OK" HorizontalAlignment="Left" Margin="334,350,0,0" VerticalAlignment="Top" Width="75" Click="goal1_Click"/>
+        <Label Content="Land" HorizontalAlignment="Left" Margin="43,209,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="boxCountry" HorizontalAlignment="Left" Height="23" Margin="43,235,0,0" TextWrapping="Wrap" Text="Japan" VerticalAlignment="Top" Width="120"/>
+        <RadioButton x:Name="rbtnStand" Content="Stående" HorizontalAlignment="Left" Margin="309,298,0,0" VerticalAlignment="Top"/>
+        <RadioButton x:Name="rbtnLaying" Content="Liggabde" HorizontalAlignment="Left" Margin="309,318,0,0" VerticalAlignment="Top"/>
+        <ListBox x:Name="listbox2" HorizontalAlignment="Left" Height="75" Margin="504,146,0,0" VerticalAlignment="Top" Width="207"/>
+        <ListBox x:Name="listbox3" HorizontalAlignment="Left" Height="100" Margin="504,269,0,0" VerticalAlignment="Top" Width="207"/>
+
+    </Grid>
+</Window>

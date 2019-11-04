@@ -1,0 +1,24 @@
+﻿<Window x:Class="Gammal_Tenta3.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Gammal_Tenta3"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <GroupBox Header="Badmintonbollar" HorizontalAlignment="Left" Height="191" Margin="16,18,0,0" VerticalAlignment="Top" Width="249"/>
+        <Label Content="Antal bollar per förpackning" HorizontalAlignment="Left" Margin="28,41,0,0" VerticalAlignment="Top"/>
+        <Label Content="Antal matcher" HorizontalAlignment="Left" Margin="28,100,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="box2" HorizontalAlignment="Left" Height="23" Margin="28,131,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="box1" HorizontalAlignment="Left" Height="23" Margin="28,72,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <Button Content="Beräkna" HorizontalAlignment="Left" Margin="28,170,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click"/>
+        <GroupBox Header="GroupBox" HorizontalAlignment="Left" Height="160" Margin="334,86,0,0" VerticalAlignment="Top" Width="392"/>
+        <Label x:Name="lblSetSpelareA" Content="Label" HorizontalAlignment="Left" Margin="373,191,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="lblPoängSpelareA" Content="Label" HorizontalAlignment="Left" Margin="447,190,0,0" VerticalAlignment="Top" MouseDown="lblPoängSpelareA_MouseDown"/>
+        <Label x:Name="lblPoängSpelareB" Content="Label" HorizontalAlignment="Left" Margin="572,190,0,0" VerticalAlignment="Top" MouseDown="lblPoängSpelareB_MouseDown"/>
+        <Label x:Name="lblSetSpelareB" Content="Label" HorizontalAlignment="Left" Margin="637,191,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.237,1.308"/>
+        <Button Content="Starta spelet" HorizontalAlignment="Left" Margin="373,111,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_1"/>
+
+    </Grid>
+</Window>
